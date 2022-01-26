@@ -65,7 +65,7 @@ h2 {
 }
 
 
-button {
+#top-button {
     color: #E5E7EB;
     background-color: #3882F6;
     border-radius: 10px;
@@ -123,7 +123,7 @@ button {
 .quote-text {
     height: 300px;
     width: 500px;
-    font-size: 36px;
+    font-size: 32px;
     font-family: 'Arial Narrow', Arial, sans-serif;
     font-style: italic;
     text-align: left;
@@ -138,4 +138,62 @@ button {
     color: #1F2937;
     font-size: 20px;
     font-weight: 800;
+}
+
+/* Fourth Section with call to action */
+.bottom {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+    height: 200px;
+}
+
+.sign-up {
+    background-color: #3882F6;
+    width: 675px;
+    height: 100px;
+    display: flex;
+    border-radius: 15px;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px 30px;
+}
+
+#bottom-button{
+    color: #E5E7EB;
+    background-color: #3882F6;
+    border-radius: 10px;
+    width: 120px;
+    height: 30px;
+    padding: 4px;
+    font-weight: 900;
+    border: 2px solid white;
+}
+
+br {
+    display: block;
+    content: "";
+    margin-top: 0;
+}
+
+.call h4 {
+    margin-bottom: 0;
+    color: #E5E7EB;
+    font-size: 24px;
+}
+
+.call {
+    color: #E5E7EB;
+    margin-bottom: 16px;
+}
+
+/* Footer Section */
+.footer {
+    display: flex;
+    background-color: #1F2937;
+    color: #E5E7EB;
+    height: 80px;
+    justify-content: center;
+    align-items: center;
 }
